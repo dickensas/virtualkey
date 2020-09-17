@@ -2,11 +2,11 @@
 
 A simple C based Virtual key API reading text from the file and conver each character to WIN32 Virtual Key
 
-##Mandatory Dependency
+## Mandatory Dependency
 
 windows.h Required to compile the code, either wind32api in GCC or MSYS2/MinGW/Cygwin or VC++ runtime required to compile the code
 
-##Example usage
+## Example usage
 
 Launch x3270 for mainframe
 
@@ -22,4 +22,6 @@ Then run C code and immediately focus the x3270 terminal
 
 All text inside transfer.txt will be typed inside the editor char by char
 
+## License
 
+MIT
